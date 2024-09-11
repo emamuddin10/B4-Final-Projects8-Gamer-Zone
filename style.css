@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --primary:#ff42a5;
+    --secondary:#a155e4;
+    --btn-color:#4ec5f7;
+}
+
+nav{
+    /* background-color: aliceblue; */
+    box-shadow: 2px 2px 5px rgb(112, 112, 112);
+}
+
+.nav-container{
+    
+    padding: 30px;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 50px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 10px;
+}
+ .g{
+    color: var(--primary);
+}
+.menus-container{
+    display: flex;
+    align-items: center;
+}
+.menus-container a{
+    text-decoration: none;
+    font-size: 16px;
+    color:black ;
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    font-weight:500;
+}
+.login{
+   background-color: #e7e6e9;
+   padding: 10px 20px;
+   border: none;
+   font-size: 16px;
+   border-radius: 5px;
+   /* margin-left: 0px; */
+}
+.fa-brands{
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+/* banner part design  */
+
+.banner{
+    display: flex;
+    /* padding: 50px 200px 0px 200px; */
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+.group-img{
+    width: 80%;
+}
+.banner-content{
+    padding-left: 200px;
+    
+    /* width: 50%; */
+}
+
+.banner-title{
+    font-size: 2.5rem;
+    color: black;
+    text-transform: uppercase;
+}
+.banner-text{
+    font-size: 5rem;
+    /* background-color: red; */
+    background-image: linear-gradient(to bottom, var(--primary), var(--secondary)); 
+    /* background-image: linear-gradient(to bottom, red, blue); */
+    color: transparent;
+    -webkit-background-clip:text;
+    font-weight: 900;
+
+}
+.fa-solid{
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.btn-primary{
+    padding: 15px 30px;
+    background-color: var(--primary);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.btn-secondary{
+    padding: 15px 30px;
+    background-color: var(--btn-color);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* gamer section design  */
+
+
+.gamer-section{
+    
+    background-color: #fff9fc;
+    
+  
+}
+.gamer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gamer-content{
+    text-align: right;
+}

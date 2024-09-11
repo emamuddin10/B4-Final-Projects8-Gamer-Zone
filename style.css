@@ -9,6 +9,33 @@
     --primary:#ff42a5;
     --secondary:#a155e4;
     --btn-color:#4ec5f7;
+    --text-color:#534c64;
+    --bg-color:#e7e6e9;
+}
+
+
+
+/* shared degign */
+span{
+    color: var(--text-color);
+}
+
+.section-title{
+  font-size: 2.2rem;
+  background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
+  color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 15px;
+}
+.section-description{
+  font-size: .9rem;
+  /* max-width: ; */
+  line-height: 25px;
+  margin-bottom: 15px;
+
+}
+.gamer-img{
+    max-width: 60%;
 }
 
 nav{
@@ -114,6 +141,7 @@ nav{
     font-size: 16px;
     text-transform: uppercase;
     margin-right: 20px;
+    margin-bottom: 15px;
 }
 .btn-secondary{
     padding: 15px 30px;
@@ -140,8 +168,118 @@ nav{
     align-items: center;
     max-width: 1200px;
     margin: auto;
+    gap: 50px;
 }
 
 .gamer-content{
     text-align: right;
 }
+.btn-gamer{
+    margin-right:0px ;
+}
+q{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+/* online game section style///////////////////////////////////////////////////////// */
+.online-game-section{
+    max-width: 1200px;
+    margin: auto;
+    /* text-align: center; */
+    padding: 100px 0px;
+    
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+   
+    
+
+}
+.card-description{
+    color: var(--text-color);
+    font-size: 1rem;
+    /* width: 350px; */
+    margin-top: 20px;
+}
+.card-img{
+    width: 100%;
+}
+.online-game-content{
+    text-align: center;
+}
+
+/* play instantly section style  /////////////////////////////////////////////// */
+
+.play-instant-section{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px 0px 200px 0px; */
+    padding: 50px 0px 200px 0px;
+}
+.instant-content{
+    width: 300px;
+    text-align: right;
+}
+
+.horse{
+    width: 90%;
+    display: block;
+    position: relative;
+}
+.angela{
+width: 40%;
+border: 1px solid rgba(104, 104, 104, 0.377);
+border-radius: 5px;
+/* position: relative; */
+position: absolute;
+margin-top: -200px;
+margin-left: -100px;
+}
+.img-div{
+    width: 50%;
+    padding-left: 100px;
+    position: relative;
+}
+ 
+/* list section style////////////////////////////////////////////////////////////// */
+
+.list-section{
+    
+    background-color: var(--bg-color);
+    padding: 100px;
+}
+.list-container{
+    max-width: 1200px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    gap: 30px;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding:10px 20px;
+    border-radius: 50px;
+}
+.list-item:hover{
+    border: 1px solid var(--primary);
+    color: #ff42a5;
+}
+
+.list-img{
+    width: 50px;
+    margin-right: 10px;
+
+}
+

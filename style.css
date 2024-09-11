@@ -253,6 +253,7 @@ margin-left: -100px;
     
     background-color: var(--bg-color);
     padding: 100px;
+    
 }
 .list-container{
     max-width: 1200px;
@@ -283,3 +284,37 @@ margin-left: -100px;
 
 }
 
+/* footer section /////////////////////////////////////////////////////////////////// */
+
+footer{
+    background-color: #07072b;
+    padding: 100px  300px;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    
+}
+.foot-center{
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    color: #e7e6e9;
+    /* align-content:  center; */
+}
+
+.foot-menu1 a{
+    text-decoration: none;
+    color: #e7e6e9;
+    margin-right: 10px;
+}
+.foot-p {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    color: #e7e6e9;
+    gap: 30px;
+}
+.copyright{
+    color: #e7e6e9;
+}

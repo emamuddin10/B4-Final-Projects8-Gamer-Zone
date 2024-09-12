@@ -12,6 +12,9 @@
     --text-color:#534c64;
     --bg-color:#e7e6e9;
 }
+.hide{
+    display: none;
+}
 
 
 
@@ -34,9 +37,7 @@ span{
   margin-bottom: 15px;
 
 }
-.gamer-img{
-    max-width: 60%;
-}
+
 
 nav{
     /* background-color: aliceblue; */
@@ -153,9 +154,11 @@ nav{
     text-transform: uppercase;
 }
 
-/* gamer section design  */
+/* gamer section design ///////////////////////////////////////////////////////// */
 
-
+.gamer-img{
+    width: 60%;
+}
 .gamer-section{
     
     background-color: #fff9fc;
